@@ -1,2 +1,2 @@
-Javascripy Array Reflection
+Javascript Array Reflection
  
