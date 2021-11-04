@@ -1,3 +1,3 @@
-const myFunction = () => {
-    document.getElementById("Image").style.display ='block';
-  }
+function ImageChange() {
+  var Image_Id = document.getElementById('getImage');
+}
