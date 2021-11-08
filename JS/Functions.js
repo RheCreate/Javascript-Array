@@ -1,4 +1,4 @@
-//To bring up a random image on button click 'new image'
+//To bring up a random image on button click 'new image' and to assign it a number
 
 document.querySelector("button").addEventListener("click", () => {
   document.body.style.background = 
@@ -11,8 +11,10 @@ ImageId = Math.floor(Math.random() * maxNo);
 
 // Email form
 
-
-
+function FormPopup() {
+  document.getElementById('FormContainer').style.display = "block";
+  }
+  
 //To validate email
 
 function validateEmail(email) {
