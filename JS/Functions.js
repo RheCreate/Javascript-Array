@@ -2,7 +2,7 @@
 
 document.querySelector("button").addEventListener("click", () => {
   document.body.style.background = 
-    `url(https://picsum.photos/400/400?random=${ImageId})`;
+    `url(https://picsum.photos/${ImageId()}400/400?random)`;
     document.body.style.backgroundRepeat = "no-repeat";
     document.body.style.backgroundPosition="center";
 });
