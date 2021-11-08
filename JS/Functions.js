@@ -15,6 +15,7 @@ function FormPopup() {
   document.getElementById('FormContainer').style.display = "block";
   }
   
+  
 //To validate email
 
 function validateEmail(email) {
