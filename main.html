@@ -5,7 +5,7 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width,initial-scale=1">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <link rel="stylesheet" href="Style/Stylesheet.css">
+   <link rel="stylesheet" href="Styles/Stylesheet.css">
    <link rel="Form" href="popupform.html">
    <link rel="preconnect" href="https://fonts.gstatic.com">
    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
@@ -15,30 +15,22 @@
 
 <body>
 
-<header id="Title">
-    <h1>Array</h1>
-</header>
+    <header id="Title">
+        <h1>Array</h1>
+    </header>
+
+    <div class="Container">
+        <div class="Select">
+       <button id="change-background-button"><span>New Image</span></button>
+       <input type="text" id="user-email" placeholder="Enter Email Address..." />
+       <button id="save-background-button"><span>Link Email to Image</span></button>
+       <button id="show-linked-emails"><span>Show Linked Emails</span></button>
+       <ul  id="email-list"></ul>
+         </div>
+    </div>
 
 
-<div id="OptionsContain" class="Container">
-   <div class="Select">
-   <button><span>New Image</span></button>
-   <button id="FormBTN" onclick="FormPopup()"><span>Link to Email</span></button>
-   <button id="LinkedTo"><span>Linked Emails</span></button>
-</div>
-
-<div id="FormContainer" class="FormBox">
-    <form action="#" id="form" method="post" name="form">
-      <input id="email" name="email" placeholder="Email..." type="text">
-      <button id="submit">Submit</button>
-    </form>
-  </div>
-
-
-
-
-<script type="text/javascript" src="JS/Functions.js"></script>
+    <script type="text/javascript" src="JS/Functions.js"></script>
 
 </body>
-
 </html>
