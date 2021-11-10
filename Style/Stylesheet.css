@@ -5,11 +5,13 @@ header {
 }
 
 header h1 {
-  font-family: 'Poppins', sans-serif;
-  color: purple;
-  font-size: 60px;
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  font-size: 65px;
   text-align: center;
   letter-spacing: normal;
+  font-weight: bold;
+  text-shadow: 3px 3px 0px #eb452b, 5px 5px 0px #CC7722, 8px 8px 0px #052939;
 }
 
 .Container {
@@ -28,17 +30,31 @@ header h1 {
   width: 150px;
   height: 50px;
   border-radius: 5px 5px 5px 5px;
-  background-color: purple;
+  background-color: #CC7722;
   border: 2px 2px 2px 2px gray;
 }
 
 .Container .Select button span {
   color: white;
+  font-size: 20px;
   font-weight: bold;
-  font-family: 'Poppins', sans-serif;
+  letter-spacing: normal;
+  font-family: 'Amatic SC', cursive;
 }
 
 input {
   font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 479.98px) {
+  .Container {
+    height: 150px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 655px) {
+  .Container {
+    height: 150px;
+  }
 }
 /*# sourceMappingURL=Stylesheet.css.map */

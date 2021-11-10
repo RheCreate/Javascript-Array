@@ -5,7 +5,7 @@ setBackgroundImage();
 
 var storageArray = [];
 
-//set up events
+//Set up events
 
 document.querySelector("#change-background-button").addEventListener("click",() => {setBackgroundImage();});
 
@@ -23,7 +23,7 @@ p.innerHTML = storageArray[i].emailAddress;
 li.appendChild(p);
 listElement.appendChild(li)}});
 
-//Styling image
+//Image positioning
 
 function setBackgroundImage() {
     id = Math.floor(Math.random()*1000);
