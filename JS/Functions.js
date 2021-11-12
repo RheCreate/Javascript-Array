@@ -35,9 +35,20 @@ function setBackgroundImage() {
   
 //To validate email
 
-function validateEmail(email) {
-  const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-  return re.test(String(email).toLowerCase());
+function validateEmail(user-email) {
+  const res = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return res.test(String(user-email).toLowerCase());
+}
+function validate() {
+  let result = $("#result");
+  let email = $("#user-email").val();
+  email.text("");
+  if(validateEmail(user-email)) {
+    user-email.text(user-email + " is valid");
+  } else {
+    user-email.text(user-email + " is not valid");
+  }
+  return false;
 }
 
 
